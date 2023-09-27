@@ -480,16 +480,24 @@ For an optimal experience, please use desktop computers for this demo, as mobile
         <p>
           LLaVa-RLHF connects pre-trained <a href="https://openai.com/research/clip">CLIP ViT-L/14</a> visual encoder and large language model <a href="https://github.com/lm-sys/FastChat">Vicuna</a>, using a simple projection matrix and a LoRA module.   We consider a three-stage alignment procedure:
           </p><ul type="1">
-            <li>Stage 1: Pre-training for Feature Alignment. <span style="font-size: 95%;">Only the projection matrix is updated, based on a subset of CC3M.</span></li>
-            <li><b>Stage 2: Supervised Fine-tuning End-to-End.</b>. <span style="font-size: 95%;">Both the projection matrix and LLM are updated for: 
+            <li><b>Stage 1: Supervised Fine-tuning.</b> <span style="font-size: 95%;"></span>
+            <ul type="1">
+              <li> Following LLaVA, we conduct pre-training for Feature Alignment. Only the projection matrix is updated, based on a subset of CC3M.
+                <li> Visual Chat and HQ Multimodal Instruction: LLaVA-SFT<sup>+</sup> is fine-tuned on 90k LLaVA-Instruct task, 83k VQA-v2 and 16k A-OKVQA multi-round QA task, and 23k Flickr30k Spotting Caption task.
+              </ul>
+            </li>
+            <li><b>Stage 2: Human Preference Collection & Preference Modeling. 
+            </b> <span style="font-size: 95%;">
               <ul type="1">
-                <li> <b>Visual Chat and HQ Multimodal Instruction</b>: LLaVA-SFT<sup>+</sup> is fine-tuned on 90k LLaVA-Instruct task, 83k VQA-v2 and 16k A-OKVQA multi-round QA task, and 23k Flickr30k Spotting Caption task. 
+                <li> We collect 10k human preferences where human annotators are asked to compare two responses and pinpoint the more hallucinated one.
               </ul>  
-            <li><b>Stage 3: Factually-Augmented RLHF</b>. <span style="font-size: 95%;">Only the LoRA module on top of LLaVA-SFT<sup>+</sup> is fine-tuned to get the Reward Model on 10k human preference data and Policy Model via PPO. 
-
+            <li><b>Stage 3: Factually-Augmented RLHF</b>. <span style="font-size: 95%;">
+              <ul type="1">
+                <li> Only the LoRA module on top of LLaVA-SFT<sup>+</sup> is fine-tuned to get the Reward Model on 10k human preference data and the RL Model via reinforcement learning (PPO) from simulated human preferences.
+              </ul>
           </span></li></ul>  
-          Please check out ``LLaVA-RLHF-13bx336-v1.5'' model checkpoint on 
-          <a href="https://huggingface.co/zhiqings/LLaVA-RLHF-13b-v1.5-336">[HuggingFace Models]</a>.
+          Please check out our <a href="https://huggingface.co/zhiqings/LLaVA-RLHF-13b-v1.5-336">[LLaVA-RLHF-13bx336-v1.5]</a> model checkpoint
+           and <a href="https://huggingface.co/zhiqings/LLaVA-RLHF-13b-v1.5-336">[LLaVA-RLHF-7bx224-v1.5]</a> model checkpoint.
         <p></p>
       </div>
       <centering>
