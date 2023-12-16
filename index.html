@@ -2,7 +2,7 @@
 <!-- saved from url=(0027)https://llava-vl.github.io/ -->
 <html class="fontawesome-i2svg-active fontawesome-i2svg-complete" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   
-  <meta name="description" content="Visual Instruction Tuning">
+  <meta name="description" content="Vision-Language Feedback">
   <meta name="keywords" content="multimodal chatbot">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>LLaVA-RLHF</title>
@@ -113,63 +113,57 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">LLaVA-RLHF</h1>
-            <h3 class="title is-3 publication-title">Aligning Large Multimodal Models with Factually Augmented RLHF</h3>
+            <h1 class="title is-1 publication-title">VLFeedback and Silkie</h1>
+            <h3 class="title is-3 publication-title">Preference Distillation for Large Visual Language Models</h3>
             <div class="is-size-5">
               <span class="author-block">
-                <a href="https://www.cs.cmu.edu/~zhiqings/" style="color:#f68946;font-weight:normal;">Zhiqing Sun<sup>*</sup></a>,
+                <a href="https://lilei-nlp.github.io" style="color:#008AD7;font-weight:normal;">Lei Li<sup>*</sup></a>,
               </span>
               <span class="author-block">
-                <a href="https://sincerass.github.io/" style="color:#008AD7;font-weight:normal;">Sheng Shen<sup>*</sup></a>,
+                <a href="" style="color:#008AD7;font-weight:normal;">Zhihui Xie<sup>*</sup></a>,
               </span>
               <span class="author-block">
-                <a href="https://shengcao-cao.github.io/" style="color:#F2A900;font-weight:normal;">Shengcao Cao<sup>*</sup</a>,
+                <a href="" style="color:#008AD7;font-weight:normal;">Mukai Li</a>,
               </span> <br>
               <span class="author-block">
-                <a href="https://hliu.cc/" style="color:#8146f6;font-weight:normal;">Haotian Liu</a>,
+                <a href="" style="color:#F2A900;font-weight:normal;">Shunian Chen</a>,
               </span>
               <span class="author-block">
-                <a href="https://chunyuan.li/" style="color:#46f6f6;font-weight:normal;">Chunyuan Li</a>,
+                <a href="" style="color:#94070A;font-weight:normal;">Peiyi Wang</a>,
               </span>
               <span class="author-block">
-                <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=qff5rRYAAAAJ&view_op=list_works&sortby=pubdate" style="color:#9bf646;font-weight:normal;">Yikang Shen</a>,
+                <a href="" style="color:#94070A;font-weight:normal;">Liang Chen</a>,
               </span> <br>
               <span class="author-block">
-                <a href="https://people.csail.mit.edu/ganchuang/" style="color:#9bf646;font-weight:normal;">Chuang Gan<sup>†</sup></a>,
+                <a href="" style="color:#008AD7;font-weight:normal;">Yazheng Yang</a>,
               </span>
               <span class="author-block">
-                <a href="https://scholar.google.com/citations?user=3aE0r9QAAAAJ&hl=en&oi=ao" style="color:#F2A900;font-weight:normal;">Liang-Yan Gui<sup>†</sup></a>,
+                <a href="" style="color:#F2A900;font-weight:normal;">Benyou Wang</a>,
               </span>
               <span class="author-block">
-                <a href="https://yxw.web.illinois.edu/" style="color:#F2A900;font-weight:normal;">Yu-Xiong Wang<sup>†</sup></a>,
+                <a href="" style="color:#008AD7;font-weight:normal;">Lingpeng Kong</a>,
               </span>
-              <span class="author-block">
+              <!-- <span class="author-block">
                 <a href="https://www.cs.cmu.edu/~./yiming/" style="color:#f68946;font-weight:normal;">Yiming Yang<sup>†</sup></a>,
               </span>
-              <span class="author-block">
-                <a href="http://people.eecs.berkeley.edu/~keutzer/" style="color:#008AD7;font-weight:normal;">Kurt Keutzer<sup>†</sup></a>,
-              </span>
-              <span class="author-block">
-                <a href="https://people.eecs.berkeley.edu/~trevor/" style="color:#008AD7;font-weight:normal;">Trevor Darrell<sup>†</sup></a>,
-              </span>
+
+              </span> -->
             </div>
 
             <br>
             <div class="is-size-5 publication-authors">
-              <span class="author-block"><b style="color:#008AD7; font-weight:normal">▶ </b>UC Berkeley</span>
-              <span class="author-block"><b style="color:#f68946; font-weight:normal">▶ </b>CMU</span>
-              <span class="author-block"><b style="color:#F2A900; font-weight:normal">▶ </b>UIUC</span>
-              <span class="author-block"><b style="color:#8146f6; font-weight:normal">▶ </b>UW–Madison</span>
-              <span class="author-block"><b style="color:#46f6f6; font-weight:normal">▶ </b>Microsoft Research</span>
-              <span class="author-block"><b style="color:#9bf646; font-weight:normal">▶ </b>MIT-IBM Watson AI Lab</span>
-              <span class="author-block">&nbsp;&nbsp;<sup>*</sup>Equal Contribution, <sup>†</sup>Equal Advising</span>
+              <span class="author-block"><b style="color:#008AD7; font-weight:normal">▶ </b>The University of Hong Kong</span>
+              <br>
+              <span class="author-block"> <b style="color:#F2A900;  font-weight:normal"> ▶ </b> The Chinese University of Hong Kong (Shenzhen)</span>  <br> 
+              <span class="author-block"><b style="color:#94070A; font-weight:normal">▶ </b>Peking University</span> <br>
+              <span class="author-block">&nbsp;&nbsp;<sup>*</sup>Equal Contribution</span>
             </div>
 
 
             <div class="column has-text-centered">
               <div class="publication-links">
                 <span class="link-block">
-                  <a href="https://arxiv.org/pdf/2309.14525.pdf" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <a href="https://arxiv.org/pdf/" target="_blank" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <!-- <i class="ai-arxiv"></i> -->
                     </span>
@@ -177,64 +171,40 @@
                   </a>
                 </span>
                 <span class="link-block">
-                  <a href="https://github.com/llava-rlhf/LLaVA-RLHF" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <a href="https://github.com/vlf-silkie/Silkie" target="_blank" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <svg class="svg-inline--fa fa-github fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg><!-- <i class="fab fa-github"></i> Font Awesome fontawesome.com -->
                     </span>
                     <span>Code</span>
                   </a>
                 </span>
-                <span class="link-block">
+                <!-- <span class="link-block">
                   <a href="http://pitt.lti.cs.cmu.edu:7890/" target="_blank" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <svg class="svg-inline--fa fa-images fa-w-18" aria-hidden="true" focusable="false" data-prefix="far" data-icon="images" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M480 416v16c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V176c0-26.51 21.49-48 48-48h16v48H54a6 6 0 0 0-6 6v244a6 6 0 0 0 6 6h372a6 6 0 0 0 6-6v-10h48zm42-336H150a6 6 0 0 0-6 6v244a6 6 0 0 0 6 6h372a6 6 0 0 0 6-6V86a6 6 0 0 0-6-6zm6-48c26.51 0 48 21.49 48 48v256c0 26.51-21.49 48-48 48H144c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h384zM264 144c0 22.091-17.909 40-40 40s-40-17.909-40-40 17.909-40 40-40 40 17.909 40 40zm-72 96l39.515-39.515c4.686-4.686 12.284-4.686 16.971 0L288 240l103.515-103.515c4.686-4.686 12.284-4.686 16.971 0L480 208v80H192v-48z"></path></svg><!-- <i class="far fa-images"></i> Font Awesome fontawesome.com -->
-                    </span>
-                    <span>Demo</span>
-                  </a>
-                </span>
-                <span class="link-block">
-                  <a href="https://huggingface.co/datasets/zhiqings/LLaVA-Human-Preference-10K" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <!-- </span> -->
+                    <!-- <span>Demo</span> -->
+                  <!-- </a> -->
+                <!-- </span> -->
+                 <span class="link-block">
+                  <a href="https://huggingface.co/datasets/MMInstruction/VLFeedback" target="_blank" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <svg class="svg-inline--fa fa-database fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="database" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M448 73.143v45.714C448 159.143 347.667 192 224 192S0 159.143 0 118.857V73.143C0 32.857 100.333 0 224 0s224 32.857 224 73.143zM448 176v102.857C448 319.143 347.667 352 224 352S0 319.143 0 278.857V176c48.125 33.143 136.208 48.572 224 48.572S399.874 209.143 448 176zm0 160v102.857C448 479.143 347.667 512 224 512S0 479.143 0 438.857V336c48.125 33.143 136.208 48.572 224 48.572S399.874 369.143 448 336z"></path></svg><!-- <i class="fas fa-database"></i> Font Awesome fontawesome.com -->
                     </span>
-                    <span>Dataset (RM)</span>
-                  </a>
-                </span>
-                <span class="link-block">
-                  <a href="https://huggingface.co/datasets/shengs/LLaVA-SFT-122K" target="_blank" class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <svg class="svg-inline--fa fa-database fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="database" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M448 73.143v45.714C448 159.143 347.667 192 224 192S0 159.143 0 118.857V73.143C0 32.857 100.333 0 224 0s224 32.857 224 73.143zM448 176v102.857C448 319.143 347.667 352 224 352S0 319.143 0 278.857V176c48.125 33.143 136.208 48.572 224 48.572S399.874 209.143 448 176zm0 160v102.857C448 479.143 347.667 512 224 512S0 479.143 0 438.857V336c48.125 33.143 136.208 48.572 224 48.572S399.874 369.143 448 336z"></path></svg><!-- <i class="fas fa-database"></i> Font Awesome fontawesome.com -->
-                    </span>
-                    <span>Dataset (SFT)</span>
-                  </a>
-                </span>
-                <span class="link-block">
-                  <a href="https://huggingface.co/datasets/Shengcao1006/MMHal-Bench" target="_blank" class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <svg class="svg-inline--fa fa-share-square fa-w-18" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="share-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M568.482 177.448L424.479 313.433C409.3 327.768 384 317.14 384 295.985v-71.963c-144.575.97-205.566 35.113-164.775 171.353 4.483 14.973-12.846 26.567-25.006 17.33C155.252 383.105 120 326.488 120 269.339c0-143.937 117.599-172.5 264-173.312V24.012c0-21.174 25.317-31.768 40.479-17.448l144.003 135.988c10.02 9.463 10.028 25.425 0 34.896zM384 379.128V448H64V128h50.916a11.99 11.99 0 0 0 8.648-3.693c14.953-15.568 32.237-27.89 51.014-37.676C185.708 80.83 181.584 64 169.033 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48v-88.806c0-8.288-8.197-14.066-16.011-11.302a71.83 71.83 0 0 1-34.189 3.377c-7.27-1.046-13.8 4.514-13.8 11.859z"></path></svg><!-- <i class="fas fa-share-square"></i> Font Awesome fontawesome.com -->
-                    </span>
-                    <span>MMHal-Bench</span>
-                  </a>
-                </span><br>
-                <span class="link-block">
-                  <a href="https://huggingface.co/zhiqings/LLaVA-RLHF-13b-v1.5-336" target="_blank" class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <svg class="svg-inline--fa fa-share-square fa-w-18" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="share-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M568.482 177.448L424.479 313.433C409.3 327.768 384 317.14 384 295.985v-71.963c-144.575.97-205.566 35.113-164.775 171.353 4.483 14.973-12.846 26.567-25.006 17.33C155.252 383.105 120 326.488 120 269.339c0-143.937 117.599-172.5 264-173.312V24.012c0-21.174 25.317-31.768 40.479-17.448l144.003 135.988c10.02 9.463 10.028 25.425 0 34.896zM384 379.128V448H64V128h50.916a11.99 11.99 0 0 0 8.648-3.693c14.953-15.568 32.237-27.89 51.014-37.676C185.708 80.83 181.584 64 169.033 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48v-88.806c0-8.288-8.197-14.066-16.011-11.302a71.83 71.83 0 0 1-34.189 3.377c-7.27-1.046-13.8 4.514-13.8 11.859z"></path></svg><!-- <i class="fas fa-share-square"></i> Font Awesome fontawesome.com -->
-                    </span>
-                    <span>Model (13b)</span>
-                  </a>
-                </span>
-                <span class="link-block">
-                  <a href="https://huggingface.co/zhiqings/LLaVA-RLHF-7b-v1.5-224" target="_blank" class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <svg class="svg-inline--fa fa-share-square fa-w-18" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="share-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M568.482 177.448L424.479 313.433C409.3 327.768 384 317.14 384 295.985v-71.963c-144.575.97-205.566 35.113-164.775 171.353 4.483 14.973-12.846 26.567-25.006 17.33C155.252 383.105 120 326.488 120 269.339c0-143.937 117.599-172.5 264-173.312V24.012c0-21.174 25.317-31.768 40.479-17.448l144.003 135.988c10.02 9.463 10.028 25.425 0 34.896zM384 379.128V448H64V128h50.916a11.99 11.99 0 0 0 8.648-3.693c14.953-15.568 32.237-27.89 51.014-37.676C185.708 80.83 181.584 64 169.033 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48v-88.806c0-8.288-8.197-14.066-16.011-11.302a71.83 71.83 0 0 1-34.189 3.377c-7.27-1.046-13.8 4.514-13.8 11.859z"></path></svg><!-- <i class="fas fa-share-square"></i> Font Awesome fontawesome.com -->
-                    </span>
-                    <span>Model (7b)</span>
+                    <span>Dataset (VLFeedback)</span>
                   </a>
                 </span>
 
 
-                
+                <span class="link-block">
+                  <a href="https://huggingface.co/datasets/MMInstruction/Silkie" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <svg class="svg-inline--fa fa-share-square fa-w-18" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="share-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M568.482 177.448L424.479 313.433C409.3 327.768 384 317.14 384 295.985v-71.963c-144.575.97-205.566 35.113-164.775 171.353 4.483 14.973-12.846 26.567-25.006 17.33C155.252 383.105 120 326.488 120 269.339c0-143.937 117.599-172.5 264-173.312V24.012c0-21.174 25.317-31.768 40.479-17.448l144.003 135.988c10.02 9.463 10.028 25.425 0 34.896zM384 379.128V448H64V128h50.916a11.99 11.99 0 0 0 8.648-3.693c14.953-15.568 32.237-27.89 51.014-37.676C185.708 80.83 181.584 64 169.033 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48v-88.806c0-8.288-8.197-14.066-16.011-11.302a71.83 71.83 0 0 1-34.189 3.377c-7.27-1.046-13.8 4.514-13.8 11.859z"></path></svg><!-- <i class="fas fa-share-square"></i> Font Awesome fontawesome.com -->
+                    </span>
+                    <span>Model</span>
+                  </a>
+                </span>
+
 
                 <!-- <span class="link-block">
                 <a href="#"
@@ -257,35 +227,21 @@
     <div class="container is-max-desktop">
       <div class="hero-body">
         <h4 class="subtitle has-text-centered">
-          LLaVA-RLHF represents the first open-source <strong>RLHF-trained</strong> large multimodal model for general-purpose visual and language understanding, achieving impressive visual reasoning and perception capabilities mimicking spirits of the multimodal GPT-4 and setting a new state-of-the-art accuracy on LLaVA-Bench, MMBench, and MMHal-Bench. <br>
-          We propose a new alignment algorithm called <strong>Factually Augmented RLHF (Fact-RLHF)</strong> that augments the reward model with additional factual information such as image captions and ground-truth multi-choice options, which alleviates the reward hacking phenomenon in RLHF and further improves the performance. <br>
-          LLaVA-RLHF combines a CLIP vision encoder and Vicuna, is fine-tuned with high-quality vision instruction tuning data and Fact-RLHF, and is presented to be <strong>more helpful</strong> and <strong>less hallucinated</strong> than LLaVA or other open-sourced LMMs.
-          <!-- LLaVA-RLHF represents the first open-source <strong>RLHF-trained</strong> large multimodal model for general-purpose visual and language understanding, achieving impressive visual reasoning and perception capabilities mimicking spirits of the multimodal GPT-4 and setting a new state-of-the-art accuracy on LLaVA-Bench, MMBench, and MMHal-Bench. 
-          It combines a CLIP vision encoder and Vicuna, and is fine-tuned with high-quality vision instruction tuning data and Factually Augmented RLHF. 
-          LLaVA-RLHF is presented to be <strong>more helpful</strong> and <strong>less hallucinated</strong> than LLaVA or other open-sourced LMMs. -->
-          <!-- LLaVA-RLHF represents a novel <strong>aligned</strong> end-to-end trained large multimodal model that combines a CLIP vision encoder and Vicuna
-          for general-purpose visual and language understanding,
-          achieving impressive visual reasoning and perception capabilities mimicking spirits of the multimodal GPT-4 and setting a new state-of-the-art accuracy LLaVA-Bench, MMBench, MMHal-Bench. 
-          Via Factually Augmented RLHF, LLaVA-RLHF is presented to be <strong>more helpful</strong> and <strong>less hallucinated</strong> than LLaVA or other open-sourced LMMs.  -->
+          <!-- LLaVA-RLHF represents the first open-source <strong>RLHF-trained</strong> large multimodal model for general-purpose visual and language understanding, achieving impressive visual reasoning and perception capabilities mimicking spirits of the multimodal GPT-4 and setting a new state-of-the-art accuracy on LLaVA-Bench, MMBench, and MMHal-Bench. <br> -->
+          <!-- We propose a new alignment algorithm called <strong>Factually Augmented RLHF (Fact-RLHF)</strong> that augments the reward model with additional factual information such as image captions and ground-truth multi-choice options, which alleviates the reward hacking phenomenon in RLHF and further improves the performance. <br> -->
+          <!-- LLaVA-RLHF combines a CLIP vision encoder and Vicuna, is fine-tuned with high-quality vision instruction tuning data and Fact-RLHF, and is presented to be <strong>more helpful</strong> and <strong>less hallucinated</strong> than LLaVA or other open-sourced LMMs. -->
+          VLFeedback is the first open-sourced <strong>GPT-4V annotated vision-language preference dataset</strong>, covering 80k instructions sampled from various sources with responses decoded from 11 large language vision models such as GPT-4V, LLaVA-series and Qwen-VL. <br>
+          Based on Qwen-VL-Chat, we present Silkie, by performing DPO on our VLFeedback. Compared with the original model, Silkile 
+          <strong>achieves 6.9% and 9.5% relative improvement on the MME benchmark regarding the perception and cognition capabilities</strong>, respectively. 
+          Besides, Silkie sets a new <strong>state-of-the-art score 3.02 is achieved on MMHal-Bench</strong> regarding hallucination evaluation.
+
+
         </h4>
       </div>
     </div>
   </section>
 
-  <!-- <section class="section" style="background-color:#efeff081">
-    <div class="container is-max-desktop" id="gradio">
-      <gradio-app src="http://pitt.lti.cs.cmu.edu:7890"><div class="gradio-container gradio-container-3-27-0 svelte-ac4rv4 embed-container dark" style="min-height: initial;"><div class="main svelte-ac4rv4">  <div class="wrap svelte-1lyswbr" style="min-height: auto;"><div class="contain"><div id="component-1" class="svelte-vt1mxs gap" style="min-width: min(0px, 100%); flex-grow: 1"><div id="component-3" class="block svelte-mppz8v padded" style="padding: 0px; margin: 0px; border-width: 0px; box-shadow: none; overflow: visible; background: transparent; border-style: solid;"><div class="wrap center svelte-gjihhp hide" style="position: absolute; padding: 0px;"></div> <div class="svelte-1ed2p3z"><div id="component-3" class="prose svelte-1yrv54" data-testid="markdown"><h1>🌋 LLaVA-RLHF: Aligning Large Multimodal Models with Factually Augmented RLHF</h1>
-<p><a href="https://llava-rlhf.github.io/" target="_blank">[Project Page]</a> <a href="https://arxiv.org/abs/2309.14525" target="_blank">[Paper]</a> <a href="https://github.com/llava-rlhf/LLaVA-RLHF" target="_blank">[Code]</a> <a target="_blank">[Model]</a></p>
-</div></div></div><div id="component-4" class="svelte-15lo0d8"><div id="component-5" class="svelte-vt1mxs gap" style="min-width: min(320px, 100%); flex-grow: 3"><div id="model_selector_row" class="svelte-15lo0d8"><div id="component-7" class="block svelte-mppz8v padded" style="border-style: solid; overflow: visible;"><div class="wrap default svelte-gjihhp hide" style="position: absolute; padding: 0px;"></div> <label><span class="svelte-1gfkn6j sr-only hide">Dropdown</span>  <div class="wrap svelte-1ythexu"><div class="wrap-inner svelte-1ythexu"><span class="single-select svelte-1ythexu">LLaVA-RLHF-v1-13B-336px</span> <div class="secondary-wrap svelte-1ythexu"><input class="border-none svelte-1ythexu" readonly="" autocomplete="off"> <div class="token-remove remove-all svelte-1ythexu hide" title="Remove All"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg></div> <svg class="dropdown-arrow svelte-p5edak" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"><path d="M5 8l4 4 4-4z"></path></svg></div></div> <div class="reference"></div> </div></label></div></div><div id="component-8" class="block svelte-mppz8v" style="height: 240px; border-style: dashed; overflow: hidden;"><div class="wrap default svelte-gjihhp hide" style="position: absolute; padding: 0px;"></div> <div style="  " class="svelte-1frtwj3 float"><span class="svelte-1frtwj3"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-image"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg></span> Image</div> <div data-testid="image" class="image-container svelte-p3y7hu" style="position: relative;"><div class="svelte-116rqfv center boundedheight flex"><div class="wrap svelte-xwlu1w">Drop Image Here <span class="or svelte-xwlu1w">- or -</span> Click to Upload</div> <input type="file" accept="image/*" class="svelte-116rqfv"></div><iframe style="display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; border: 0; opacity: 0; pointer-events: none; z-index: -1;" aria-hidden="true" tabindex="-1" src="./LLaVA_files/saved_resource.html"></iframe></div></div><div class="form svelte-awbtu4"><fieldset id="component-9" class="block svelte-mppz8v padded" style="border-style: solid; overflow: visible;"><div class="wrap default svelte-gjihhp hide" style="position: absolute; padding: 0px;"></div> <span class="svelte-1gfkn6j">Preprocess for non-square image</span>  <div class="wrap svelte-1p9xokt"><label style=" " class="svelte-1p9xokt selected"><input type="radio" name="radio-component-9" value="Crop" class="svelte-1p9xokt"> <span class="ml-2 svelte-1p9xokt">Crop</span> </label><label style=" " class="svelte-1p9xokt"><input type="radio" name="radio-component-9" value="Resize" class="svelte-1p9xokt"> <span class="ml-2 svelte-1p9xokt">Resize</span> </label><label style=" " class="svelte-1p9xokt"><input type="radio" name="radio-component-9" value="Pad" class="svelte-1p9xokt"> <span class="ml-2 svelte-1p9xokt">Pad</span> </label></div></fieldset></div><div id="component-10" class="wrap svelte-13hsdno"><div class="label svelte-13hsdno"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32" class="svelte-13hsdno"><path fill="currentColor" d="M10 6h18v2H10zm0 18h18v2H10zm0-9h18v2H10zm-6 0h2v2H4zm0-9h2v2H4zm0 18h2v2H4z"></path></svg> Examples</div> <div class="table-wrap svelte-13hsdno"><table class="svelte-13hsdno"><thead><tr class="tr-head svelte-13hsdno"></tr></thead> <tbody><tr class="tr-body svelte-13hsdno"><td class="svelte-13hsdno"><img src="./LLaVA_files/extreme_ironing.jpg" class="svelte-gqt00k table"></td><td class="svelte-13hsdno"><div class="svelte-1ayixqk table">What is unusual about this image?</div></td> </tr><tr class="tr-body svelte-13hsdno"><td class="svelte-13hsdno"><img src="./LLaVA_files/waterview.jpg" class="svelte-gqt00k table"></td><td class="svelte-13hsdno"><div class="svelte-1ayixqk table">What are the things I should be cautious about when I visit here?</div></td> </tr></tbody></table></div> </div><div id="component-11" class="block svelte-mppz8v padded" style="border-style: solid; overflow: visible;"><div class="wrap default svelte-gjihhp hide" style="position: absolute; padding: 0px;"></div> <div class="label-wrap svelte-s1r2yt"><span class="svelte-s1r2yt">Parameters</span> <span class="icon svelte-s1r2yt" style="transform: rotate(90deg);">▼</span></div> </div></div><div id="component-17" class="svelte-vt1mxs gap" style="min-width: min(320px, 100%); flex-grow: 6"><div id="chatbot" class="block svelte-mppz8v" style="border-style: solid; overflow: visible;"><div style="  " class="svelte-1frtwj3"><span class="svelte-1frtwj3"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--carbon" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32"><path fill="currentColor" d="M17.74 30L16 29l4-7h6a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h9v2H6a4 4 0 0 1-4-4V8a4 4 0 0 1 4-4h20a4 4 0 0 1 4 4v12a4 4 0 0 1-4 4h-4.84Z"></path><path fill="currentColor" d="M8 10h16v2H8zm0 6h10v2H8z"></path></svg></span> LLaVA Chatbot</div> <div class="wrap svelte-1o68geq"><div class="message-wrap svelte-1o68geq"> </div></div></div><div id="component-19" class="svelte-15lo0d8"><div id="component-20" class="svelte-vt1mxs gap" style="min-width: min(320px, 100%); flex-grow: 8"><div class="form svelte-awbtu4"><div id="component-0" class="block svelte-mppz8v padded" style="border-style: solid; overflow: visible;"><div class="wrap default svelte-gjihhp hide" style="position: absolute; padding: 0px;"></div> <label class="svelte-4xt1ch"><span class="svelte-1gfkn6j sr-only hide">Textbox</span>   <textarea data-testid="textbox" class="scroll-hide svelte-4xt1ch" placeholder="Enter text and press ENTER" rows="1" style="overflow-y: scroll; height: 42px;"></textarea></label></div></div></div><div id="component-22" class="svelte-vt1mxs gap" style="min-width: min(60px, 100%); flex-grow: 1"><button class="lg secondary svelte-1ipelgc" style="  " id="component-23">Submit</button></div></div><div id="component-24" class="svelte-15lo0d8"><button class="lg secondary svelte-1ipelgc" style="  " id="component-25" disabled="">👍  Upvote</button><button class="lg secondary svelte-1ipelgc" style="  " id="component-26" disabled="">👎  Downvote</button><button class="lg secondary svelte-1ipelgc" style="  " id="component-27" disabled="">⚠️  Flag</button><button class="lg secondary svelte-1ipelgc" style="  " id="component-28" disabled="">🔄  Regenerate</button><button class="lg secondary svelte-1ipelgc" style="  " id="component-29" disabled="">🗑️  Clear history</button></div></div></div><div id="component-30" class="block svelte-mppz8v padded" style="padding: 0px; margin: 0px; border-width: 0px; box-shadow: none; overflow: visible; background: transparent; border-style: solid;"><div class="wrap center svelte-gjihhp hide" style="position: absolute; padding: 0px;"></div> <div class="svelte-1ed2p3z"><div id="component-30" class="prose svelte-1yrv54" data-testid="markdown"><h3>Terms of use</h3>
-<p>By using this service, users are required to agree to the following terms:
-The service is a research preview intended for non-commercial use only. It only provides limited safety measures and may generate offensive content. It must not be used for any illegal, harmful, violent, racist, or sexual purposes. The service may collect user dialogue data for future research.
-Please click the “Flag” button if you get any inappropriate answer! We will collect those to keep improving our moderator.
-For an optimal experience, please use desktop computers for this demo, as mobile devices may compromise its quality.</p>
-</div></div></div><div id="component-31" class="block svelte-mppz8v padded" style="padding: 0px; margin: 0px; border-width: 0px; box-shadow: none; overflow: visible; background: transparent; border-style: solid;"><div class="wrap center svelte-gjihhp hide" style="position: absolute; padding: 0px;"></div> <div class="svelte-1ed2p3z"><div id="component-31" class="prose svelte-1yrv54" data-testid="markdown"><h3>License</h3>
-<p>The service is a research preview intended for non-commercial use only, subject to the model <a href="https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md" target="_blank">License</a> of LLaMA, <a href="https://openai.com/policies/terms-of-use" target="_blank">Terms of Use</a> of the data generated by OpenAI, and <a href="https://chrome.google.com/webstore/detail/sharegpt-share-your-chatg/daiacboceoaocpibfodeljbdfacokfjb" target="_blank">Privacy Practices</a> of ShareGPT. Please contact us if you find any potential violation.</p>
-</div></div></div><div data-testid="json" id="component-32" class="block svelte-mppz8v hidden" style="border-style: solid; overflow: visible;"> <div class="wrap default svelte-gjihhp hide" style="position: absolute; padding: 0px;"></div> <div class="empty svelte-1u5vjgs small"><div class="icon svelte-1u5vjgs"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--mdi" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M5 3h2v2H5v5a2 2 0 0 1-2 2a2 2 0 0 1 2 2v5h2v2H5c-1.07-.27-2-.9-2-2v-4a2 2 0 0 0-2-2H0v-2h1a2 2 0 0 0 2-2V5a2 2 0 0 1 2-2m14 0a2 2 0 0 1 2 2v4a2 2 0 0 0 2 2h1v2h-1a2 2 0 0 0-2 2v4a2 2 0 0 1-2 2h-2v-2h2v-5a2 2 0 0 1 2-2a2 2 0 0 1-2-2V5h-2V3h2m-7 12a1 1 0 0 1 1 1a1 1 0 0 1-1 1a1 1 0 0 1-1-1a1 1 0 0 1 1-1m-4 0a1 1 0 0 1 1 1a1 1 0 0 1-1 1a1 1 0 0 1-1-1a1 1 0 0 1 1-1m8 0a1 1 0 0 1 1 1a1 1 0 0 1-1 1a1 1 0 0 1-1-1a1 1 0 0 1 1-1Z"></path></svg></div></div></div></div></div> </div> </div> </div></gradio-app>
-    </div>
-  </section> -->
+
 
   <section class="section" style="background-color:#efeff081">
     <div class="container is-max-desktop">
@@ -295,19 +251,15 @@ For an optimal experience, please use desktop computers for this demo, as mobile
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
             <p>
-              Large Multimodal Models (LMM) are built across modalities and the misalignment between two modalities can result in <strong>''hallucination''</strong>, generating textual outputs that are not grounded by the multimodal information in context.
-              </p><ol type="1">
-                <li><b>High-Quality Instruct Data</b>. <span style="font-size: 95%;">We convert VQA-v2 (83k) and A-OKVQA (16k) into a multi-round QA task,
-                  and Flickr30k (23k) into a Spotting Captioning task, and train the LLaVA-SFT+ models based on the new mixture of data including LLaVA-Instruct-90k (randomly sampled from LLaVA-Instruct-150K) </span></li>
-                  <li><b>Factually-Augmented RLHF</b>. <span style="font-size: 95%;">We introduce a novel algorithm named Factually Augmented RLHF (Fact-RLHF), which calibrates the reward signals by augmenting them with additional information such as image captions or ground-truth
-                    multi-choice option. The reward model is trained on 10k hallucination-aware human preference data.</span></li>  
-                  <li><b>MMHal-Bench</b>. <span style="font-size: 95%;">To evaluate the hallucination in real-world scenarios, we develop a new evaluation benchmark <strong>MMHal-Bench</strong> with a special focus on penalizing hallucinations with 96 image-question pairs, ranging in 8 question
-                    categoriesx12 object topics from OpenImages.</span></li>
-                <li><b>Performance</b>. <span style="font-size: 95%;">Our early experiments show that LLaVA-RLHF demonstrates impressive visual reasoning, perception abilities while being less hallucinated and more human aligned, sometimes exhibiting the behaviors of multimodal GPT-4 on unseen images/instructions, and yields a 96.6% (v.s. LLaVA's 85.1%) relative score compared with GPT-4 on a synthetic multimodal instruction-following dataset, 
-                  and 60.1 (v.s. LLaVA's 47.5) overall performance on MMBench. 
-                  </span></li>
-                <li><b>Open-source</b>. <span style="font-size: 95%;">We make human preference data, high-quality visual instruction tuning data, our model and code base publicly available.</span></li>
-              </ol>  
+              This paper explores preference distillation for large vision language models (LVLMs), improving their ability to generate helpful and faithful responses anchoring the visual context.
+              We first build a vision-language feedback~(VLFeedback) dataset utilizing AI annotation. Specifically,
+              responses are generated by models sampled from 11 LVLMs, conditioned on multi-modal instructions sourced from various datasets.
+              We adopt GPT-4V to assess the generated outputs regarding helpfulness, visual faithfulness, and ethical considerations.
+              Furthermore, the preference supervision is distilled into Qwen-VL-Chat through the direct preference optimization~(DPO) method. 
+              The resulting model Silkie, achieves 6.9% and 9.5% relative improvement on the MME benchmark regarding the perception and cognition capabilities, respectively.
+              Silkie also
+              demonstrates reduced hallucination by setting a new state-of-the-art score of 3.02 on the MMHal-Bench benchmark.
+              Further analysis shows that DPO with our VLFeedback dataset mainly boosts the fine-grained perception and complex cognition abilities of LVLMs, and brings more comprehensive improvements compared to human-annotated preference datasets.
            <p></p>
   
           </div>
@@ -323,7 +275,7 @@ For an optimal experience, please use desktop computers for this demo, as mobile
   <!-- Results. -->
   <div class="columns is-centered has-text-centered">
     <div class="column is-six-fifths">
-      <h2 class="title is-3"><img id="painting_icon" width="3%" src="./LLaVA_files/5886212.png"> High-Quality Multimodal Instrucion-Following Data and Human Preference Data</h2>
+      <h2 class="title is-3"><img id="painting_icon" width="3%" src="./LLaVA_files/5886212.png"> Multimodal Instructions and AI Preference Data</h2>
     </div>
   </div>
   <!-- </div> -->
@@ -334,127 +286,20 @@ For an optimal experience, please use desktop computers for this demo, as mobile
     <div class="column is-full-width">
       <div class="content has-text-justified">
         <p>
-          Based on the LLaVA, we collect 10k human preference dataset with sampled input from 10k LLaVA-Instruct and output from LLaVA with temperature as 0.7</a>.
+          We sample multi-modal instructions from various souces, covering different capabilities of LVLMs. We further build a model pool consisting of 11 LVLMs. </a>.
+          <centering>
+            <div style="text-align: center;">
+              <img id="teaser" width="80%" src="./LLaVA_files/instruction_source.png">     
+            </div> 
+            <br>
+          We further use GPT-4V as the annoator to assess the quality of each response regarding helpfulessn, visual faithfulness, and ethical considerations. 
+          <br>  
+          <br>
 
-<!-- CSS Code: Place this code in the document's head (between the 'head' tags) -->
-<style>
-  table.GeneratedTable {
-    width: 100%;
-    background-color: #ffffff;
-    border-collapse: collapse;
-    border-width: 2px;
-    border-color: #c1c4c5;
-    border-style: solid;
-    color: #000000;
-  }
-  
-  table.GeneratedTable td, table.GeneratedTable th {
-    border-width: 2px;
-    border-color: #9b9d9e;
-    border-style: solid;
-    padding: 3px;
-  }
-  
-  table.GeneratedTable thead {
-    background-color: #6691ee;
-  }
-  </style>
-  
-  <!-- HTML Code: Place this code in the document's body (between the 'body' tags) where the table should appear -->
-  </p><div class="column is-six-fifths" width="80%">
-  <table class="GeneratedTable">
-    <thead>
-      <tr>
-        <th>Data file name</th>
-        <th>File Size</th>
-        <th>Sample Size</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a href="https://huggingface.co/datasets/zhiqings/LLaVA-Human-Preference-10K"><strong>human_preference_10k.json</strong></a></td>
-        <td>31 MB</td>
-        <td>10K</td>
-      </tr>
-      <tr>
-        <td><a href="https://huggingface.co/datasets/shengs/LLaVA-SFT-122K/">vqav2_83k.json</a> </td>
-        <td>13 MB</td>
-        <td>83K</td>
-      </tr>
-      <tr>
-        <td><a href="https://huggingface.co/datasets/shengs/LLaVA-SFT-122K/">aokvqa_16k.json</a></td>
-        <td>4.9 MB</td>
-        <td>16K</td>
-      </tr>
-      <tr>
-        <td><a href="https://huggingface.co/datasets/shengs/LLaVA-SFT-122K/">flickr_23k.json</a></td>
-        <td>3.9 MB</td>
-        <td>23K</td>
-      </tr>
-      
-    </tbody>
-  </table>
-</div>
-  <!-- Codes by Quackit.com -->
-  
-        <p></p>
-        <p>
-          <!-- For each subset, we visualize the root noun-verb pairs for the instruction and response. For each chart, please click the link for the interactive page to check out the noun-verb pairs whose frequency is higher the given number.         -->
-        </p>
-      </div>
-
-  
-
-
-
-
-      <!-- <div class="columns is-centered has-text-centered">
-      <div class="column is-six-fifths" style="display: flex; align-items: flex-start; justify-content: center;">  
-        <figure style="text-align: center;">
-          <img id="teaser" width="100%" src="./LLaVA_files/conversation_58k_instruction_verb_noun_50.png">  
-          <figcaption>
-            Instruction: Conversation [<a href="https://llava-vl.github.io/images/LLaVA-Instruct-150K_noun_verb/conversation_58k_instruction_verb_noun_0.html">0</a>, <a href="https://llava-vl.github.io/images/LLaVA-Instruct-150K_noun_verb/conversation_58k_instruction_verb_noun_20.html">20</a>, <a href="https://llava-vl.github.io/images/LLaVA-Instruct-150K_noun_verb/conversation_58k_instruction_verb_noun_50.html">50</a>]
-          </figcaption>
-        </figure>
-        <figure style="text-align: center;">
-          <img id="teaser" width="100%" src="./LLaVA_files/detail_23k_instruction_verb_noun_0.png">  
-          <figcaption>
-            Instruction: Detailed Description  [<a href="https://llava-vl.github.io/images/LLaVA-Instruct-150K_noun_verb/detail_23k_instruction_verb_noun_0.html">0</a>]
-          </figcaption>
-        </figure>
-        <figure style="text-align: center;">
-          <img id="teaser" width="100%" src="./LLaVA_files/complex_reasoning_77k_instruction_verb_noun_50.png">  
-          <figcaption>
-            Instruction: Complex Reasoning   [<a href="https://llava-vl.github.io/images/LLaVA-Instruct-150K_noun_verb/complex_reasoning_77k_instruction_verb_noun_0.html">0</a>, <a href="https://llava-vl.github.io/images/LLaVA-Instruct-150K_noun_verb/complex_reasoning_77k_instruction_verb_noun_20.html">20</a>, <a href="https://llava-vl.github.io/images/LLaVA-Instruct-150K_noun_verb/complex_reasoning_77k_instruction_verb_noun_50.html">50</a>]
-          </figcaption>
-        </figure>
-      </div>
-      </div>   -->
-
-
-
-      <!-- <div class="columns is-centered has-text-centered">
-        <div class="column is-six-fifths" style="display: flex; align-items: flex-start; justify-content: center;">  
-          <figure style="text-align: center;">
-            <img id="teaser" width="100%" src="./LLaVA_files/conversation_58k_response_verb_noun_50.png">  
-            <figcaption>
-              Response: Conversation [<a href="https://llava-vl.github.io/images/LLaVA-Instruct-150K_noun_verb/conversation_58k_response_verb_noun_0.html">0</a>, <a href="https://llava-vl.github.io/images/LLaVA-Instruct-150K_noun_verb/conversation_58k_response_verb_noun_20.html">20</a>, <a href="https://llava-vl.github.io/images/LLaVA-Instruct-150K_noun_verb/conversation_58k_response_verb_noun_50.html">50</a>]
-            </figcaption>
-          </figure>
-          <figure style="text-align: center;">
-            <img id="teaser" width="100%" src="./LLaVA_files/detail_23k_response_verb_noun_50.png">  
-            <figcaption>
-              Response: Detailed Description  [<a href="https://llava-vl.github.io/images/LLaVA-Instruct-150K_noun_verb/detail_23k_response_verb_noun_0.html">0</a>, <a href="https://llava-vl.github.io/images/LLaVA-Instruct-150K_noun_verb/detail_23k_response_verb_noun_20.html">20</a>, <a href="https://llava-vl.github.io/images/LLaVA-Instruct-150K_noun_verb/detail_23k_response_verb_noun_50.html">50</a>]
-            </figcaption>
-          </figure>
-          <figure style="text-align: center;">
-            <img id="teaser" width="100%" src="./LLaVA_files/complex_reasoning_77k_response_verb_noun_50.png">  
-            <figcaption>
-              Response: Complex Reasoning   [<a href="https://llava-vl.github.io/images/LLaVA-Instruct-150K_noun_verb/complex_reasoning_77k_response_verb_noun_0.html">0</a>, <a href="https://llava-vl.github.io/images/LLaVA-Instruct-150K_noun_verb/complex_reasoning_77k_response_verb_noun_20.html">20</a>, <a href="https://llava-vl.github.io/images/LLaVA-Instruct-150K_noun_verb/complex_reasoning_77k_response_verb_noun_50.html">50</a>]
-            </figcaption>
-          </figure>
-        </div>
-        </div>       -->
+          <div style="text-align: center;">
+              <img id="teaser" width="90%" src="./LLaVA_files/vdpov2.png">     
+            </div>
+          </centering>          
 
     </div>
   </div>
@@ -467,7 +312,7 @@ For an optimal experience, please use desktop computers for this demo, as mobile
   <!-- Results. -->
   <div class="columns is-centered has-text-centered">
     <div class="column is-six-fifths">
-      <h2 class="title is-3"><img id="painting_icon" width="3%" src="./LLaVA_files/5379860.png"> LLaVA-RLHF: Aligned Large Language-and-Vision Assistant</h2>
+      <h2 class="title is-3"><img id="painting_icon" width="3%" src="./LLaVA_files/silkie.png"> Silkie: A Better Aligned LVLM </h2>
     </div>
   </div>
   <!-- </div> -->
@@ -478,8 +323,9 @@ For an optimal experience, please use desktop computers for this demo, as mobile
     <div class="column is-full-width">
       <div class="content has-text-justified"> 
         <p>
-          LLaVa-RLHF connects pre-trained <a href="https://openai.com/research/clip">CLIP ViT-L/14</a> visual encoder and large language model <a href="https://github.com/lm-sys/FastChat">Vicuna</a>, using a simple projection matrix and a LoRA module.   We consider a three-stage alignment procedure:
-          </p><ul type="1">
+          <!-- LLaVa-RLHF connects pre-trained <a href="https://openai.com/research/clip">CLIP ViT-L/14</a> visual encoder and large language model <a href="https://github.com/lm-sys/FastChat">Vicuna</a>, using a simple projection matrix and a LoRA module.   We consider a three-stage alignment procedure: -->
+          We assume our base model Qwen-VL-Chat has been sufficient tuned with instruction tuning. We further improve it by performing DPO on our VLFeedback, using the efficient LoRA tuning method. After DPO training, Silkie achieves promising results compared with other models with similar-sized LLMs as the backbone.
+          <!-- </p><ul type="1">
             <li><b>Stage 1: Supervised Fine-tuning.</b> <span style="font-size: 95%;"></span>
             <ul type="1">
               <li> Following LLaVA, we conduct pre-training for Feature Alignment. Only the projection matrix is updated, based on a subset of CC3M.
@@ -495,17 +341,26 @@ For an optimal experience, please use desktop computers for this demo, as mobile
               <ul type="1">
                 <li> Only the LoRA module on top of LLaVA-SFT<sup>+</sup> is fine-tuned to get the Reward Model on 10k human preference data and the RL Model via reinforcement learning (PPO) from simulated human preferences.
               </ul>
-          </span></li></ul>  
-          Please check out our <a href="https://huggingface.co/zhiqings/LLaVA-RLHF-13b-v1.5-336">[LLaVA-RLHF-13bx336-v1.5]</a> model checkpoint
-           and <a href="https://huggingface.co/zhiqings/LLaVA-RLHF-13b-v1.5-336">[LLaVA-RLHF-7bx224-v1.5]</a> model checkpoint.
+          </span></li></ul>   -->
+          <!-- Please check out our <a href="https://huggingface.co/zhiqings/LLaVA-RLHF-13b-v1.5-336">[LLaVA-RLHF-13bx336-v1.5]</a> model checkpoint. -->
         <p></p>
       </div>
       <centering>
         <div style="text-align: center;">
-          <img id="teaser" width="70%" src="./LLaVA_files/llava_rlhf_framework.png">     
+          <img id="teaser" width="90%" src="./LLaVA_files/silkie_result.png">     
         </div>
+        <br>
 
-      
+        (Left) In-depth analysis on the MME benchmark for the performance improvements. 
+        Our VLFeedback dataset brings clearer gains in OCR recognition and code reasoning tasks. 
+        <br>
+        
+        (Right) Relative performance improvement by performing DPO with RLHF-V preference data and a subset of our VLFeedback dataset. Our GPT-4V annotated preference dataset brings more consistent improvements on four benchmarks.
+        <br>
+        <br>
+        <div style="text-align: center;">
+          <img id="teaser" width="95%" src="./LLaVA_files/analysis.png">     
+        </div>
       </centering>           
     </div>
   </div>
@@ -515,58 +370,13 @@ For an optimal experience, please use desktop computers for this demo, as mobile
   
 
 
-<section class="section">
-  <!-- Results. -->
-  <div class="columns is-centered has-text-centered">
-    <div class="column is-six-fifths">
-      <h2 class="title is-3"><img id="painting_icon" width="3%" src="./LLaVA_files/3515174.png"> Performance</h2>
-    </div>
-  </div>
-
-
-
-  <!-- </div> -->
-  <!--/ Results. -->    
-<div class="container is-max-desktop">
-
-
-  <!-- Grounedtext2img. -->
-  <div class="columns is-centered">
-    <div class="column is-full-width">
-      <h2 class="title is-4"><img id="painting_icon" width="4%" src="./LLaVA_files/1698535.png"> <span style="font-size: 100%;">Visual Chat:</span> Towards building multimodal GPT-4 level chatbot  </h2>
-      
-      <div>
-        <a href="https://plotly.com/~lichunyuan24/5/?share_key=d78QObaCAYCIy8PJpe3gd1" target="_blank" title="llava_gpt4_pie" style="display: block; text-align: center;">  <img id="painting_icon" width="90%" src="./LLaVA_files/llava_eval.jpg"> </a>
-
-    </div>
-
-    <p style="font-family:Times New Roman"><b>On 90 language-image instructions of LLaVA-Bench, we test LLaVA-RLHF, LLaVA and GPT-4, and use GPT-4 to rate their responses from score 1 to 10. The summed score and relative score per type is reported. Overall, LLaVA-RLHF achieves 95.6% (v.s. LLaVA's 85.1%) relative score compared with GPT-4.</b>               
-    </p></div>
-  </div>
-
-  <!-- Grounedtext2img. -->
-  <div class="columns is-centered">
-    <div class="column is-full-width">
-      <h2 class="title is-4"> <img id="painting_icon" width="3%" src="./LLaVA_files/logo.png"><span style="font-size: 100%;"> MMHal-Bench:</span> New SoTA with the synergy of LLaVA with Fact-RLHF</h2>
-      
-      <div data-plotly="lichunyuan24/1" style="text-align: center; position: relative;">
-        <a href="https://plotly.com/~lichunyuan24/1/?share_key=v4opE3TJpxqQ08RYsDD4iv" target="_blank" title="Plot 1" style="display: block; text-align: center;" data-plotly="lichunyuan24/1"><img id="painting_icon" width="65%" src="./LLaVA_files/mmhal_bench.png" data-plotly="lichunyuan24/1"></a>
-        <iframe id="plotly-lichunyuan24:1" width="0" height="0" frameborder="0" scrolling="no" style="max-width: 100%; visibility: hidden; position: absolute;" src="./LLaVA_files/llava"></iframe>
-    </div>
-        <!-- <p style="font-family:Times New Roman"><b>LLaVA alones achieve 90.92%. We use the text-only GPT-4 as the juedge, to predict the final answer based on its own previous answers and the LLaVA answers. This ``GPT-4 as juedge'' scheme yields a new SOTA 92.53%.</b> -->
-              
-    </p></div>
-  </div>
-</div></section>
-
-
 
 
 <section class="section">
 
   <div class="columns is-centered has-text-centered">
     <div class="column is-six-fifths">
-      <h2 class="title is-3"> Examples on more Helpful and less Hallucinated Visual Instruction Following</h2>
+      <h3 class="title is-3"> Comparison Examples</h3>
     </div>
   </div>
 
@@ -575,29 +385,25 @@ For an optimal experience, please use desktop computers for this demo, as mobile
          <!-- <h2 class="title is-4">Visual Reasoning on two examples from <a href="https://arxiv.org/abs/2303.08774">OpenAI GPT-4 Technical Report</a></h2> -->
       </div>
       </div>  
-
+      
     <div class="columns is-centered has-text-centered">
+      
     <div class="column is-six-fifths">
-      <img id="teaser" width="36%" src="./LLaVA_files/cmp_moto.jpg">
-      <img id="teaser" width="38%" src="./LLaVA_files/cmp_airport.jpg">
+      Our Silkie locates the wooden stools with a red flower without giving misleading assertions (Left), and correctly answers the scientific-related question (Right), exhibiting better perception and cognition capabilities.
+      <img id="teaser" width="90%" src="./LLaVA_files/case_study1.png">
+      <br>
+      <br>
+      On a challenging query asking the model to generate a report for the diagram of weather forecast process, Silkie generates a well-structured  report satisfying the word requirement.
+      <br>
+      <br>
+    
+
+      <img id="teaser" width="100%" src="./LLaVA_files/case_study2.png">
+
     </div>
     </div>  
 
   
-
-    <!-- <div class="columns is-centered has-text-centered">
-      <div class="column is-six-fifths">
-         <h2 class="title is-4">Optical character recognition (OCR)</h2>
-      </div>
-      </div>  
-
-    <div class="columns is-centered has-text-centered">
-    <div class="column is-six-fifths" style="display: flex; align-items: flex-start; justify-content: center;">
-        <img id="teaser" width="32%" src="./LLaVA_files/llava_example_cvpr2023.png">
-        <img id="teaser" width="32%" src="./LLaVA_files/llava_example_cvinw_logo.png">
-        <img id="teaser" width="32%" src="./LLaVA_files/example_llava_exmaple.png">
-    </div>
-    </div>   -->
 
   
 
@@ -632,7 +438,7 @@ For an optimal experience, please use desktop computers for this demo, as mobile
 
   </div>
 </section>
-
+<!-- 
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
@@ -645,24 +451,29 @@ For an optimal experience, please use desktop computers for this demo, as mobile
   }
   </code></pre>
     </div>
-  </section>
+  </section> -->
   
   <section class="section" id="Acknowledgement">
     <div class="container is-max-desktop content">
       <h2 class="title">Acknowledgement</h2>
       <p>
-        This website is adapted from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>, licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
-        Commons Attribution-ShareAlike 4.0 International License</a>.  We thank the LLaMA team for giving us access to their models, and open-source projects, including Alpaca and Vicuna.
+        This website is adapted from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a> and <a href="https://llava-rlhf.github.io/">LLaVA-RLHF</a>, licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+        Commons Attribution-ShareAlike 4.0 International License</a>.  
+        We thank the authors of the multi-modal instruction tuning datasets and open-source projects, including LLaVA, LLaVA-RLHF and Qwen-VL. 
+        We would thank <a href="https://runxinxu.github.io/aboutme/">Runxin Xu</a> for his great help on the project.
       </p>
 
       <p>
-<b>Usage and License Notices</b>: The data, code and checkpoint is intended and licensed for research use only. They are also restricted to uses that follow the license agreement of CLIP,  LLaMA, Vicuna and GPT-4. The dataset is CC BY NC 4.0 (allowing only non-commercial use) and models trained using the dataset should not be used outside of research purposes.
+<b>Usage and License Notices</b>: The data, code and checkpoint is intended and licensed for research use only. They are also restricted to uses that follow the license agreement of Qwen-VL and GPT-4. The dataset is CC BY NC 4.0 (allowing only non-commercial use) and models trained using the dataset should not be used outside of research purposes.
 </p>
 
       <p>
       <!-- <a href="https://github.com/Computer-Vision-in-the-Wild/"><img id="painting_icon" width="10%" src="./LLaVA_files/97258247"></a>  -->
       Related Links: 
-      <a href="hhttps://llava.hliu.cc/">[LLaVA]</a>      
+      <a href="https://llava.hliu.cc/">[LLaVA] </a>     
+      <a href="https://llava-rlhf.github.io/">[LLaVA-RLHF] </a>      
+      <a href="https://github.com/QwenLM/Qwen-VL/">[Qwen-VL] </a>      
+
       </p>    
     </div>
   </section>
