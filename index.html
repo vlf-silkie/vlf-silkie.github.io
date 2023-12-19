@@ -334,7 +334,7 @@
       <div class="content has-text-justified"> 
         <p>
           <!-- LLaVa-RLHF connects pre-trained <a href="https://openai.com/research/clip">CLIP ViT-L/14</a> visual encoder and large language model <a href="https://github.com/lm-sys/FastChat">Vicuna</a>, using a simple projection matrix and a LoRA module.   We consider a three-stage alignment procedure: -->
-          We assume our base model Qwen-VL-Chat has been sufficient tuned with instruction tuning. We further improve it by performing DPO on our VLFeedback, using the efficient LoRA tuning method. After DPO training, Silkie achieves promising results compared with other models with similar-sized LLMs as the backbone.
+           We improve Qwen-VL-Chat by performing DPO on our VLFeedback, using the efficient LoRA tuning method. After DPO training, the resulting model Silkie achieves promising results compared with other models with similar-sized LLMs as the backbone.
           <!-- </p><ul type="1">
             <li><b>Stage 1: Supervised Fine-tuning.</b> <span style="font-size: 95%;"></span>
             <ul type="1">
